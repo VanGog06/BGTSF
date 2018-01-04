@@ -80,46 +80,50 @@ h1 {
 .outer:hover > #men {
     background-image: url('./images/men-hover.gif');
     background-size: contain;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
 }
 
 #women {
     background: url('./images/women.png') no-repeat center center;
     background-size: contain;
-    grid-area: women;
 }
 
 .outer:hover > #women {
     background-image: url('./images/women-hover.gif');
     background-size: contain;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
 }
 
 #boys {
     background: url('./images/boys.png') no-repeat center center;
     background-size: contain;
-    grid-area: boys;
 }
 
 .outer:hover > #boys {
     background-image: url('./images/boys-hover.gif');
     background-size: contain;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
 }
 
 #senior {
     background: url('./images/senior.png') no-repeat center;
     background-size: contain;
     margin: 20px 28px 18px 32px;
-    grid-area: senior;
 }
 
 .outer:hover > #senior {
     background-image: url('./images/senior-hover.gif');
     background-size: contain;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
 }
 
 #disabled {
     background: url('./images/disabled.png') no-repeat center;
     background-size: contain;
-    grid-area: disabled;
 }
 
 .outer:hover > #disabled {
@@ -134,65 +138,71 @@ h1 {
 #judge {
     background: url('./images/judge.png') no-repeat center center;
     background-size: 100% 100%;
-    grid-area: judge;
 }
 
 .outer:hover > #judge {
     background-image: url('./images/judge-hover.gif');
     background-size: 100% 100%;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
 }
 
 #administrator {
     background: url('./images/administrator.png') no-repeat center center;
     background-size: 100% 100%;
-    grid-area: administrator;
 }
 
 .outer:hover > #administrator {
     background-image: url('./images/administrator-hover.gif');
     background-size: 100% 100%;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
 }
 
 #coach {
     background: url('./images/coach.png') no-repeat center center;
     background-size: contain;
-    grid-area: coach;
 }
 
 .outer:hover > #coach {
     background-image: url('./images/coach-hover.gif');
     background-size: contain;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
 }
 
 #document {
     background: url('./images/document.png') no-repeat center center;
     background-size: contain;
-    grid-area: document;
 }
 
 .outer:hover > #document {
     background-image: url('./images/document-hover.gif');
     background-size: contain;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
 }
 
 #info {
     background: url('./images/info.png') no-repeat center center;
     background-size: contain;
-    grid-area: info;
 }
 
 .outer:hover > #info {
     background-image: url('./images/info-hover.gif');
     background-size: contain;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
 }
 
 #location {
     background: url('./images/location.png') no-repeat center center;
     background-size: contain;
-    grid-area: location;
 }
 
 .outer:hover > #location {
     background-image: url('./images/location-hover.gif');
     background-size: contain;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
 }
