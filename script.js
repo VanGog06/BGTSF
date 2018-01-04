@@ -1,0 +1,23 @@
+pic = new Image();
+pic2 = new Image();
+pic3 = new Image();
+pic4 = new Image();
+pic5 = new Image();
+pic6 = new Image();
+pic7 = new Image();
+pic8 = new Image();
+pic9 = new Image();
+pic10 = new Image();
+pic11 = new Image();
+
+pic.src = './images/men-hover.gif';
+pic2.src = './images/women-hover.gif';
+pic3.src = './images/boys-hover.gif';
+pic4.src = './images/senior-hover.gif';
+pic5.src = './images/disabled-hover.gif';
+pic6.src = './images/judge-hover.gif';
+pic7.src = './images/administrator-hover.gif';
+pic8.src = './images/coach-hover.gif';
+pic9.src = './images/document-hover.gif';
+pic10.src = './images/info-hover.gif';
+pic11.src = './images/location-hover.gif';

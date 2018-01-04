@@ -80,8 +80,6 @@ h1 {
 .outer:hover > #men {
     background-image: url('./images/men-hover.gif');
     background-size: contain;
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
 }
 
 #women {
@@ -92,8 +90,6 @@ h1 {
 .outer:hover > #women {
     background-image: url('./images/women-hover.gif');
     background-size: contain;
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
 }
 
 #boys {
@@ -104,8 +100,6 @@ h1 {
 .outer:hover > #boys {
     background-image: url('./images/boys-hover.gif');
     background-size: contain;
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
 }
 
 #senior {
@@ -117,8 +111,6 @@ h1 {
 .outer:hover > #senior {
     background-image: url('./images/senior-hover.gif');
     background-size: contain;
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
 }
 
 #disabled {
@@ -143,8 +135,6 @@ h1 {
 .outer:hover > #judge {
     background-image: url('./images/judge-hover.gif');
     background-size: 100% 100%;
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
 }
 
 #administrator {
@@ -155,8 +145,6 @@ h1 {
 .outer:hover > #administrator {
     background-image: url('./images/administrator-hover.gif');
     background-size: 100% 100%;
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
 }
 
 #coach {
@@ -167,8 +155,6 @@ h1 {
 .outer:hover > #coach {
     background-image: url('./images/coach-hover.gif');
     background-size: contain;
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
 }
 
 #document {
@@ -179,8 +165,6 @@ h1 {
 .outer:hover > #document {
     background-image: url('./images/document-hover.gif');
     background-size: contain;
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
 }
 
 #info {
@@ -191,8 +175,6 @@ h1 {
 .outer:hover > #info {
     background-image: url('./images/info-hover.gif');
     background-size: contain;
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
 }
 
 #location {
@@ -203,6 +185,4 @@ h1 {
 .outer:hover > #location {
     background-image: url('./images/location-hover.gif');
     background-size: contain;
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
 }
