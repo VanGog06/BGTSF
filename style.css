@@ -1,0 +1,198 @@
+h1 {
+    padding-left: 290px;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "men women boys senior disabled"
+    "judge administrator coach . ."
+    "document info location . .";
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-gap: 10px;
+}
+
+.outer {
+    height: 150px;
+    width: 150px;
+}
+
+.outer > div {
+    height: 121px;
+    width: 100px;
+    margin: 18px auto;
+    box-sizing: border-box;
+}
+
+.outer:hover {
+    cursor: pointer;
+}
+
+.outer:nth-child(1) {
+    grid-area: men;
+}
+
+.outer:nth-child(2) {
+    grid-area: women
+}
+
+.outer:nth-child(3) {
+    grid-area: boys
+}
+
+.outer:nth-child(4) {
+    grid-area: senior
+}
+
+.outer:nth-child(5) {
+    grid-area: disabled
+}
+
+.outer:nth-child(6) {
+    grid-area: judge
+}
+
+.outer:nth-child(7) {
+    grid-area: administrator
+}
+
+.outer:nth-child(8) {
+    grid-area: coach
+}
+
+.outer:nth-child(9) {
+    grid-area: document
+}
+
+.outer:nth-child(10) {
+    grid-area: info
+}
+
+.outer:nth-child(11) {
+    grid-area: location
+}
+
+#men {
+    background: url('./images/men.png') no-repeat center center;
+    background-size: contain;
+}
+
+.outer:hover > #men {
+    background-image: url('./images/men-hover.gif');
+    background-size: contain;
+}
+
+#women {
+    background: url('./images/women.png') no-repeat center center;
+    background-size: contain;
+    grid-area: women;
+}
+
+.outer:hover > #women {
+    background-image: url('./images/women-hover.gif');
+    background-size: contain;
+}
+
+#boys {
+    background: url('./images/boys.png') no-repeat center center;
+    background-size: contain;
+    grid-area: boys;
+}
+
+.outer:hover > #boys {
+    background-image: url('./images/boys-hover.gif');
+    background-size: contain;
+}
+
+#senior {
+    background: url('./images/senior.png') no-repeat center;
+    background-size: contain;
+    margin: 20px 28px 18px 32px;
+    grid-area: senior;
+}
+
+.outer:hover > #senior {
+    background-image: url('./images/senior-hover.gif');
+    background-size: contain;
+}
+
+#disabled {
+    background: url('./images/disabled.png') no-repeat center;
+    background-size: contain;
+    grid-area: disabled;
+}
+
+.outer:hover > #disabled {
+    background-image: url('./images/disabled-hover.gif');
+    background-size: contain;
+    width: 129px;
+    height: 146px;
+    position: relative;
+    top: -26px;
+}
+
+#judge {
+    background: url('./images/judge.png') no-repeat center center;
+    background-size: 100% 100%;
+    grid-area: judge;
+}
+
+.outer:hover > #judge {
+    background-image: url('./images/judge-hover.gif');
+    background-size: 100% 100%;
+}
+
+#administrator {
+    background: url('./images/administrator.png') no-repeat center center;
+    background-size: 100% 100%;
+    grid-area: administrator;
+}
+
+.outer:hover > #administrator {
+    background-image: url('./images/administrator-hover.gif');
+    background-size: 100% 100%;
+}
+
+#coach {
+    background: url('./images/coach.png') no-repeat center center;
+    background-size: contain;
+    grid-area: coach;
+}
+
+.outer:hover > #coach {
+    background-image: url('./images/coach-hover.gif');
+    background-size: contain;
+}
+
+#document {
+    background: url('./images/document.png') no-repeat center center;
+    background-size: contain;
+    grid-area: document;
+}
+
+.outer:hover > #document {
+    background-image: url('./images/document-hover.gif');
+    background-size: contain;
+}
+
+#info {
+    background: url('./images/info.png') no-repeat center center;
+    background-size: contain;
+    grid-area: info;
+}
+
+.outer:hover > #info {
+    background-image: url('./images/info-hover.gif');
+    background-size: contain;
+}
+
+#location {
+    background: url('./images/location.png') no-repeat center center;
+    background-size: contain;
+    grid-area: location;
+}
+
+.outer:hover > #location {
+    background-image: url('./images/location-hover.gif');
+    background-size: contain;
+}
